@@ -18,3 +18,10 @@
 
 # Useful to keep other project things.
 /gitignore
+
+# Deployment secret
+/config/database.yml
+/config/secrets.yml
+/config/settings.yml
+/config/*staging.yml
+/config/*production.yml

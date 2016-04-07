@@ -1,0 +1,6 @@
+## For production
+# environment: production
+# socket: tmp/sockets/thin.sock
+
+environment: production
+socket: tmp/sockets/thin.sock

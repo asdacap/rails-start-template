@@ -1,0 +1,13 @@
+default: &defaults
+  domain: 'asdacap.com' # the domain of this application
+  multi_server: false # Sometimes we have different configuration for multi_server deployment
+
+development:
+  <<: *defaults
+  domain: 'localhost:3000' # the domain of this application
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
