@@ -23,4 +23,14 @@ module RailStartTemplate
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
+
+  # Some generators are not mean to be used all the time. Not in my case.
+  config.generators do |g|
+    g.assets false
+    g.javascripts false
+    g.stylesheets false
+    g.helper false
+    g.jbuilder false
+  end
+
 end
