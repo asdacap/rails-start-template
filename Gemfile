@@ -51,6 +51,8 @@ gem 'devise'
 gem 'annotate' # very handy annotater
 gem 'responders'
 gem 'simple_form' # Oohhh, simple_form.
+gem 'slim-rails' # Very useful especially working alone and you are out of time
+gem 'gretel' # Very nice breadcrumb gem
 gem 'kaminari'
 gem 'pundit'
 gem 'pg' # I usually use postgresql... but putting it here may not be a great idea
