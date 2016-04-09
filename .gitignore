@@ -25,3 +25,6 @@
 /config/settings.yml
 /config/*staging.yml
 /config/*production.yml
+
+# Files that will be generated
+/public/assets
